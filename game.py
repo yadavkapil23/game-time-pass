@@ -14,7 +14,6 @@ class Game:
         self.enemies = pygame.sprite.Group()
         self.coins = pygame.sprite.Group()
         
-        # We will initialize levels and states here later
         self.state = "PLAYING" # "START", "PLAYING", "GAME_OVER", "VICTORY"
         self.player = None
         self.current_level_idx = 0
