@@ -7,7 +7,6 @@ def main():
     pygame.init()
     pygame.mixer.init() # Initialize sound
     
-    # Set up display
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("2D Platformer")
     
