@@ -2,7 +2,6 @@ import pygame
 import sys
 from settings import *
 from game import Game
-
 def main():
     # Initialize pygame
     pygame.init()
