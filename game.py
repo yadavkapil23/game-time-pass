@@ -23,7 +23,6 @@ class Game:
         # UI
         self.ui = UI(self)
         
-        # This will hold the camera offset
         self.camera_x = 0
         
     def setup(self):
