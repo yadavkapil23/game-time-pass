@@ -5,6 +5,7 @@ from sprites.platform import Platform, MovingPlatform
 from level import Level
 from ui.ui import UI
 
+
 class Game:
     def __init__(self, screen):
         self.screen = screen
